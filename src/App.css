@@ -178,7 +178,7 @@ body {
 
 @media (max-width: 1150px) {
    body {
-    font-size: 20%;
+    font-size: 65% !important;
    }
 }
 
