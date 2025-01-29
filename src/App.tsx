@@ -34,7 +34,7 @@ function App() {
         <img style={{height:'auto',width:'100%',objectFit:'contain'}} src={Clouds}/>
       </div>
       <AnimatePresence>
-      {question == 1 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{delay:2.35}}} transition={{duration:2}} exit={{x:'150%',y:'200%'}} className='Card'>
+      {question == 1 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{duration:1.5,bounce:0.8}}} transition={{duration:1.5}} exit={{x:'150%',y:'200%'}} className='Card'>
         <h1 className='Card-Title'>Delivering Value</h1>
         <h1 className='Card-Subtitle'>Do you feel your work as an individual is contributing value to the business?</h1>
         <div className='Inner-Card'>
@@ -87,14 +87,21 @@ function App() {
 
         </div>
 
-        <motion.div onClick={() => setQuestion(prev => prev + 1)} whileTap={{scale:0.9}} className='Submit'>
+        <motion.div onClick={() => {
+          const temp = question + 1
+          setQuestion(0)
+          setTimeout(() => {
+           setQuestion(temp)
+          },1000)
+
+        }} whileTap={{scale:0.9}} className='Submit'>
           Submit
         </motion.div>
 
       </motion.div>}
       </AnimatePresence>
       <AnimatePresence>
-      {question == 2 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{delay:2.35}}} transition={{duration:2}} exit={{x:'150%',y:'200%'}} className='Card'>
+      {question == 2 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{duration:1.5,bounce:0.8}}} transition={{duration:1.5}} exit={{x:'150%',y:'200%'}} className='Card'>
         <h1 className='Card-Title'>Tools and Resources</h1>
         <h1 className='Card-Subtitle'>Do you feel you have the tools and resources to do your job effectively?</h1>
         <div className='Inner-Card'>
@@ -147,14 +154,21 @@ function App() {
 
         </div>
 
-        <motion.div onClick={() => setQuestion(prev => prev + 1)} whileTap={{scale:0.9}} className='Submit'>
+        <motion.div onClick={() => {
+          const temp = question + 1
+          setQuestion(0)
+          setTimeout(() => {
+           setQuestion(temp)
+          },1000)
+
+        }} whileTap={{scale:0.9}} className='Submit'>
           Submit
         </motion.div>
 
       </motion.div>}
       </AnimatePresence>
       <AnimatePresence>
-      {question == 3 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{delay:2.35}}} transition={{duration:2}} exit={{x:'150%',y:'200%'}} className='Card'>
+      {question == 3 && <motion.div initial={{x:'-150%',y:'200%'}} animate={{x:'0%',y:'0%',transition:{duration:1.5,bounce:0.8}}} transition={{duration:1.5}} exit={{x:'150%',y:'200%'}} className='Card'>
         <h1 className='Card-Title'>Appreciation in the workplace</h1>
         <h1 className='Card-Subtitle'>Do you feel your contributions are recognized and appreciated?</h1>
         <div className='Inner-Card'>
@@ -207,7 +221,14 @@ function App() {
 
         </div>
 
-        <motion.div onClick={() => setQuestion(prev => prev + 1)} whileTap={{scale:0.9}} className='Submit'>
+        <motion.div onClick={() => {
+          const temp = question + 1
+          setQuestion(0)
+          setTimeout(() => {
+           setQuestion(temp)
+          },1000)
+
+        }} whileTap={{scale:0.9}} className='Submit'>
           Submit
         </motion.div>
 
