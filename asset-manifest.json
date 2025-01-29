@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cubeh/static/css/main.0a1542d4.css",
+    "main.css": "/cubeh/static/css/main.86e5caa6.css",
     "main.js": "/cubeh/static/js/main.800c8656.js",
     "static/js/453.3f186bd6.chunk.js": "/cubeh/static/js/453.3f186bd6.chunk.js",
     "static/media/CloudsGif.gif": "/cubeh/static/media/CloudsGif.d133b60fb11ad6ee9398.gif",
@@ -9,12 +9,12 @@
     "static/media/Inter-Black.otf": "/cubeh/static/media/Inter-Black.234475d52cba30c6f795.otf",
     "static/media/Inter-Regular.otf": "/cubeh/static/media/Inter-Regular.e9b898342ed8036ee8ea.otf",
     "index.html": "/cubeh/index.html",
-    "main.0a1542d4.css.map": "/cubeh/static/css/main.0a1542d4.css.map",
+    "main.86e5caa6.css.map": "/cubeh/static/css/main.86e5caa6.css.map",
     "main.800c8656.js.map": "/cubeh/static/js/main.800c8656.js.map",
     "453.3f186bd6.chunk.js.map": "/cubeh/static/js/453.3f186bd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a1542d4.css",
+    "static/css/main.86e5caa6.css",
     "static/js/main.800c8656.js"
   ]
 }
