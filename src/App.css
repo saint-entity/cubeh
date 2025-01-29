@@ -176,3 +176,9 @@ body {
   width:90%
 }
 
+@media (max-width: 1150) {
+   body {
+    font-size: 70%;
+   }
+}
+
