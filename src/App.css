@@ -176,9 +176,55 @@ body {
   width:90%
 }
 
-@media (max-width: 1150px) {
-   body {
-    font-size: 65% !important;
-   }
+@media (max-width: 1500px) {
+   
+.Card-Title {
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
+  font-size: 30px;
+}
+.Card-Subtitle {
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #000000a2;
+  text-align: left;
+  font-size: 19px;
+  margin: 0;
+  padding: 0px;
+  width: 90%;
+}
+
+.Text-Top {
+  text-align: left;
+  font-size: 19px;
+}
+
+.Text-Middle {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  height: 70%;
+  text-align: center;
+  font-size: 14px;
+  width:90%
+}
+
+
+.Submit {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:lightblue;
+  height:8vh;
+  width:15vh;
+  font-size: 16px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
 }
 
