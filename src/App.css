@@ -236,7 +236,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: #004fed;
   height: 100px;
   width: 500px;
   border-radius: 15px;
@@ -252,7 +252,7 @@ body {
   justify-content:center;
   height:130px;
   width:130px;
-  background-color:white;
+  background-color:#004fed;
   border-radius:50%;
   filter:url(#gooey);
 
